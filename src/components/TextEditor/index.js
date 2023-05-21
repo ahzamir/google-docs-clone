@@ -1,11 +1,11 @@
-import CustomizedQuill from '../CustomizedQuill';
+import CustomizedQuill from '../CustomizedQuil';
 import { useState } from 'react';
 import './TextEditor.css';
 
-const TextEditor = () => {
+const TextEditor = ({ sidebarCollapsed }) => {
     const [text, setText] = useState('');
     return (
-        <div className="text-editor">
+        <div className={`text-editor ${sidebarCollapsed? '' : 'sidebar-open'}`}>
             <CustomizedQuill
                 value={text}
                 onChange={setText}

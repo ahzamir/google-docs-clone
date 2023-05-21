@@ -1,6 +1,5 @@
 .text-editor {
     width: 100%;
-    margin-right: 5rem;
 }
 
 .quill .ql-editor {
@@ -32,6 +31,10 @@
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.sidebar-open {
+    margin-right: 5rem;
 }
 
 @page {

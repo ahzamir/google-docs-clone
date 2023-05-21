@@ -1,0 +1,11 @@
+.sidebar-footer-button {
+    z-index: 200;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50% 0 0 50%;
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    color: black;
+    position: fixed;
+    bottom: 2rem;
+    right: 0;
+}
