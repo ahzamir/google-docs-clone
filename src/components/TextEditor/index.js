@@ -1,5 +1,6 @@
 import CustomizedQuill from '../CustomizedQuill';
 import { useState } from 'react';
+import './TextEditor.css';
 
 const TextEditor = () => {
     const [text, setText] = useState('');

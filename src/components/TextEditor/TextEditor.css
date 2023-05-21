@@ -1,0 +1,35 @@
+.text-editor {
+    width: 100%;
+    margin-right: 5rem;
+}
+
+.quill .ql-editor {
+    width: 8.5in;
+    min-height: 11in;
+    padding: 1in;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+    background-color: white;
+}
+
+.quill .ql-container.ql-snow {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.quill .ql-toolbar.ql-snow {
+    border: none;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #edf1fa;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
