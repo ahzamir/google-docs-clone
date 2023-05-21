@@ -39,6 +39,10 @@
     margin: 0 !important;
 }
 
+span.ql-formats:last-child {
+    margin-left: auto !important;
+}
+
 .quill .ql-formats:after {
     content: "";
     display: block;
