@@ -1,11 +1,23 @@
 .sidebar-footer-button {
+    display: flex;
+    align-items: center;
     z-index: 200;
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 1.7rem;
     border-radius: 50% 0 0 50%;
     box-shadow: 0 1px 1px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
     color: black;
     position: fixed;
-    bottom: 2rem;
+    bottom: 1rem;
     right: 0;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.sidebar-footer-button:hover {
+    width: 2.5rem;
+    transition: width 0.3s ease-in-out;
+    background-color: #e8e8e8;
+    cursor: pointer;
 }
