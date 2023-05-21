@@ -1,12 +1,16 @@
 import './App.css';
-import TextEditor from './components/TextEditor';
+import { useState } from 'react';
+import TextEditor from './components/TextEditor/TextEditor';
 import Sidebar from './components/Sidebar';
+import SidebarToggle from './components/Sidebar/SidebarToggle';
 
 function App() {
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   return (
     <div className="main-container">
-      <Sidebar />
-      <TextEditor />
+      <Sidebar sidebarCollapsed={sidebarCollapsed} />
+      <TextEditor sidebarCollapsed={sidebarCollapsed} />
+      <SidebarToggle sidebarCollapsed={sidebarCollapsed} setSidebarCollapsed={setSidebarCollapsed} />
     </div>
   );
 }
