@@ -8,7 +8,6 @@ import './Sidebar.css';
 
 const Sidebar = ({ sidebarCollapsed }) => {
     return (
-
         <div className={`sidebar sidebar-body ${sidebarCollapsed ? 'sidebar-body-collapsed' : ''}`}>
             <ul>
                 <li><a href="https://calendar.google.com/" target='blank'><img src={calendar} alt="Calender" /></a></li>

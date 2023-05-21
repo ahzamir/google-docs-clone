@@ -52,7 +52,8 @@ span.ql-formats:last-child {
     margin: 0 1rem;
 }
 
-.ql-editing {
+.ql-editing,
+.ql-zoom {
     font-size: 14px;
     font-weight: 500;
     color: #444746;
@@ -72,7 +73,8 @@ span.ql-formats:last-child {
     vertical-align: middle;
 }
 
-.ql-editing::after {
+.ql-editing::after,
+.ql-zoom::after {
     content: "";
     background-image: url(./icons/down-arrow.png);
     background-repeat: no-repeat;
