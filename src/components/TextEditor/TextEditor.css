@@ -27,10 +27,10 @@
     z-index: 1;
     background-color: #edf1fa;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .quill .ql-formats {
@@ -46,6 +46,38 @@
     height: 1.5rem;
     background-color: #ccc;
     margin: 0 1rem;
+}
+
+.ql-editing {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444746;
+    font-family: 'Roboto', sans-serif;
+    width: fit-content !important;
+}
+
+.ql-editing::before {
+    content: "";
+    background-image: url(./icons/pen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ql-editing::after {
+    content: "";
+    background-image: url(./icons/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 2rem;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .sidebar-open {

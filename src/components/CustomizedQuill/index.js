@@ -59,7 +59,7 @@ const CustomizedQuill = ({ value, onChange }) => {
     icons['line-and-paragraph-spacing'] = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path xmlns="http://www.w3.org/2000/svg" fill="#444746" fill-rule="evenodd" d="M9,14 L18,14 L18,12 L9,12 L9,14 L9,14 Z M9,2 L9,4 L18,4 L18,2 L9,2 L9,2 Z M7.5,4 L4,0.5 L0.5,4 L3,4 L3,12 L0.5,12 L4,15.5 L7.5,12 L5,12 L5,4 L7.5,4 L7.5,4 Z M9,9 L18,9 L18,7 L9,7 L9,9 L9,9 Z" transform="translate(0 1)"/>
     </svg>`;
-    icons['zoom'] = '100%';
+    icons['zoom'] = "100%"
     icons['editing'] = "Editing";
 
     return <ReactQuill
