@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import TextEditor from './components/TextEditor/TextEditor';
+import TextEditor from './components/TextEditor';
 import Sidebar from './components/Sidebar';
 import SidebarToggle from './components/Sidebar/SidebarToggle';
 
