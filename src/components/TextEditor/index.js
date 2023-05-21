@@ -1,4 +1,4 @@
-import CustomizedQuill from '../CustomizedQuil';
+import CustomizedQuill from '../CustomizedQuill';
 import { useState } from 'react';
 import './TextEditor.css';
 
