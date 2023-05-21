@@ -11,16 +11,17 @@ const Sidebar = () => {
         <div className="sidebar">
             <div className="sidebar-body">
                 <ul>
-                    <li><a href="#"><img src={calendar} alt="Calender" /></a></li>
-                    <li><a href="#"><img src={keep} alt="Keep" /></a></li>
-                    <li><a href="#"><img src={tasks} alt="Tasks" /></a></li>
-                    <li><a href="#"><img src={contacts} alt="Contacts" /></a></li>
-                    <li><a href="#"><img src={maps} alt="Maps" /></a></li>
-                    <li><a href="#"><img src={get_add_ons} alt="Get Add-ons" /></a></li>
+                    <li><a href="https://www.google.com/"><img src={calendar} alt="Calender" /></a></li>
+                    <li><a href="https://www.google.com/"><img src={keep} alt="Keep" /></a></li>
+                    <li><a href="https://www.google.com/"><img src={tasks} alt="Tasks" /></a></li>
+                    <li><a href="https://www.google.com/"><img src={contacts} alt="Contacts" /></a></li>
+                    <li><a href="https://www.google.com/"><img src={maps} alt="Maps" /></a></li>
+                    <li className="sidebar-separator"></li>
+                    <li><a href="https://www.google.com/"><img src={get_add_ons} alt="Get Add-ons" /></a></li>
                 </ul>
             </div>
-            <div>
-                <button>Logout</button>
+            <div className="sidebar-footer">
+                <button>A</button>
             </div>
         </div>
     );
