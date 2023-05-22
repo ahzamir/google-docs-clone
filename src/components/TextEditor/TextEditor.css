@@ -8,7 +8,7 @@
   padding: 1in;
   margin: 4rem 1rem;
   border: 1px solid #ccc;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
   background-color: white;
   height: 100vh;
 }
@@ -21,8 +21,6 @@
 
 .quill .ql-toolbar.ql-snow {
   border: none;
-  display: flex;
-  justify-content: center;
   position: fixed;
   z-index: 1;
   background-color: #edf1fa;
@@ -96,26 +94,3 @@ span.ql-formats:last-child {
   width: auto !important;
 }
 
-@page {
-  margin: 1rem;
-}
-
-@media print {
-  body {
-    background-color: none;
-  }
-
-  .quill .ql-editor {
-    width: 6.5in;
-    min-height: 9in;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    align-self: flex-start;
-    border: none;
-  }
-
-  .quill .ql-toolbar.ql-snow {
-    display: none;
-  }
-}
