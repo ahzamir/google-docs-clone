@@ -96,3 +96,9 @@ i {
   height: 2rem !important;
   width: 2rem !important;
 }
+
+@media print {
+  .docsbar-container {
+    display: none;
+  }
+}

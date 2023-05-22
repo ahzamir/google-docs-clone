@@ -27,3 +27,9 @@
   background-color: #e8e8e8;
   cursor: pointer;
 }
+
+@media print {
+  .sidebar-footer-button {
+    display: none;
+  }
+}
