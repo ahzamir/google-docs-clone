@@ -52,13 +52,17 @@ OR
 $ npm install
 ```
 
-7- Start the development server:
+4- Start the development server:
 ```
 $ yarn start
 ```
 OR
 ```
 $ npm start
+```
+5- Open the app in your browser:
+```
+http://localhost:3000/
 ```
 
 ### Prerequisites
@@ -96,7 +100,7 @@ $ yarn --version
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ahzamir/google-docs-clone/issues).
+_If you have any feedback or suggestions, please feel free to open an [issue](https://github.com/ahzamir/google-docs-clone/issues) or pull request._
 
 ## Show your support
 
