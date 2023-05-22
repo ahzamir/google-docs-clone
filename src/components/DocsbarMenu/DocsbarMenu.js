@@ -13,7 +13,9 @@ const DocsbarMenu = () => {
     return (
         <div className="docsbar-container">
             <div className="docsbar-content">
-                <img src={docs_home} alt="Docsbar Menu" className="docsbar-logo" />
+                <a href="https://docs.google.com/document/u/0/" target='blank'>
+                    <img src={docs_home} alt="Docsbar Menu" className="docsbar-logo" />
+                </a>
                 <div className="docsbar-header">
                     <div className="docsbar-title">
                         <h1>
@@ -51,7 +53,9 @@ const DocsbarMenu = () => {
                     <i className="lock-icon"><BiLock /></i>
                     Share
                 </button>
-                <img src={profile} alt="Docsbar Menu" className="profile" />
+                <a href="https://ahzamir-portfolio.vercel.app/" target='blank'>
+                    <img src={profile} alt="Docsbar Menu" className="profile" />
+                </a>
             </div>
         </div>
     )
