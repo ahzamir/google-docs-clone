@@ -1,42 +1,49 @@
 # Google Docs Clone
 
-> This is a clone of the Google Docs app. It uses the [Quill](https://quilljs.com/) library to provide a rich text editor. The app is built with React and CSS, and deployed on Netlify. 
+> This project is a clone of the Google Docs app. Which provides a platform for creating and editing documents. The app uses the [Quill](https://quilljs.com/) library to provide a rich text editor, and it is built with React and CSS.
 
+## Table of Contents
+- Built With
+- Demo
+- Getting Started
+- Contributing
+- Authors
+- License
 
 ## Built With 
 
-- [x] Programming Language: [JavaScript](https://www.javascript.com/)
-- [x] Framework: [React](https://reactjs.org/)
-- [x] Library: [Quill](https://quilljs.com/)
-- [x] Code Editor: [VS Code](https://code.visualstudio.com/)
-- [x] Deployment: [Netlify](https://www.netlify.com/)
+- [x] Framework: [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [x] Library: [Quill](https://quilljs.com/) - A powerful WYSIWYG text editor
+- [x] Code Editor: [VS Code](https://code.visualstudio.com/) - A lightweight code editor with great features
+- [x] Deployment: [Netlify](https://www.netlify.com/) - A platform for deploying web applications
 
-## Live Demo (Netlify) 💻
+## Demo 💻
+Check out the live demo of the app hosted on Netlify:
+- [Google Docsc Clone Demo]()
 
-- Project Screenshots
+Project Screenshots:
 
-![google-docs-clone]()
+- ![google-docs-clone]()
 
-- [google-docs-clone]()
+You can also watch a video demo of the app here:
 
-- [Video Demo]()
-
+- [Google Docs Clone Video Demo]()
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy of the project up and running, follow these steps:
 
-1- Clone the repository in your local machine:
+1- Clone the repository to your local machine:
 ```
 $ git clone git@github.com:ahzamir/google-docs-clone.git
 ```
 
-2- Go to the repository folder of `google-docs-clone` in your command prompt:
+2- Navigate to the project directory:
 ```
 $ cd google-docs-clone
 ```
 
-3- You might need to install dependecies with:
+3- Install the dependencies:
 ```
 $ yarn install
 ```
@@ -45,7 +52,7 @@ OR
 $ npm install
 ```
 
-7- Go to command line and run the command below for the live server:
+7- Start the development server:
 ```
 $ yarn start
 ```
