@@ -12,7 +12,7 @@
 }
 
 .sidebar-body {
-    height: 50%;
+    height: 60%;
 }
 
 .sidebar ul {
@@ -26,8 +26,8 @@
 }
 
 .sidebar ul li img {
-    height: 1.4rem;
-    width: 1.4rem;
+    height: 1.3rem;
+    width: 1.3rem;
 }
 
 .sidebar-separator {
