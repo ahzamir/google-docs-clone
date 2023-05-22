@@ -6,10 +6,11 @@
     width: 8.5in;
     min-height: 11in;
     padding: 1in;
-    margin: 1rem;
+    margin: 4rem 1rem;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
     background-color: white;
+    height: 100vh;
 }
 
 .quill .ql-container.ql-snow {
@@ -22,15 +23,16 @@
     border: none;
     display: flex;
     justify-content: center;
-    position: sticky;
-    top: 0;
+    position: fixed;
     z-index: 1;
     background-color: #edf1fa;
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 0.5rem;
     border-radius: 30px;
     display: flex;
     justify-content: flex-start;
+    width: 98%;
+    top: 75.2px;
 }
 
 .quill .ql-formats {
@@ -88,6 +90,10 @@ span.ql-formats:last-child {
 
 .sidebar-open {
     margin-right: 5rem;
+}
+
+.sidebar-open .quill .ql-toolbar.ql-snow {
+    width: auto !important;
 }
 
 @page {
