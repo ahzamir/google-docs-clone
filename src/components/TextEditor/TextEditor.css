@@ -43,7 +43,7 @@ span.ql-formats:last-child {
   margin-left: auto !important;
 }
 
-.quill .ql-formats:after {
+.quill .ql-formats::after {
   content: "";
   display: block;
   width: 1px;
@@ -94,3 +94,18 @@ span.ql-formats:last-child {
   width: auto !important;
 }
 
+@media print {
+  .quill .ql-editor {
+    width: 6.5in;
+    min-height: 9in;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    align-self: flex-start;
+    border: none;
+  }
+
+  .quill .ql-toolbar.ql-snow {
+    display: none;
+  }
+}

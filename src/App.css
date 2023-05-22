@@ -16,18 +16,3 @@ body {
   margin: 1rem;
 }
 
-@media print {
-  .quill .ql-editor {
-    width: 6.5in;
-    min-height: 9in;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    align-self: flex-start;
-    border: none;
-  }
-
-  .quill .ql-toolbar.ql-snow {
-    display: none;
-  }
-}
