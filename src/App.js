@@ -13,7 +13,10 @@ function App() {
       <div className="main-container">
         <Sidebar sidebarCollapsed={sidebarCollapsed} />
         <TextEditor sidebarCollapsed={sidebarCollapsed} />
-        <SidebarToggle sidebarCollapsed={sidebarCollapsed} setSidebarCollapsed={setSidebarCollapsed} />
+        <SidebarToggle
+          sidebarCollapsed={sidebarCollapsed}
+          setSidebarCollapsed={setSidebarCollapsed}
+        />
       </div>
     </div>
   );

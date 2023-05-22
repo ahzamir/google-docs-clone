@@ -1,5 +1,6 @@
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import PropTypes from 'prop-types';
 
 const CustomizedQuill = ({ value, onChange }) => {
   const TOOLBAR_OPTIONS = [
@@ -72,6 +73,11 @@ const CustomizedQuill = ({ value, onChange }) => {
       }}
     />
   );
+};
+
+CustomizedQuill.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
 };
 
 export default CustomizedQuill;

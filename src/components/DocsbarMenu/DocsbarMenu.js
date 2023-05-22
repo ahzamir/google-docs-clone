@@ -1,19 +1,18 @@
 import { BiLock, BiVideo } from 'react-icons/bi';
 import { MdOutlineComment } from 'react-icons/md';
 import { RxCounterClockwiseClock } from 'react-icons/rx';
-import document_status from './icons/document-status.svg';
-import last_edit from './icons/last-edit.svg';
+import status from './icons/document-status.svg';
 import move from './icons/move.svg';
 import star from './icons/star.svg';
 import profile from './icons/profile.jpg';
-import docs_home from './icons/docs-home.svg';
+import home from './icons/docs-home.svg';
 import './DocsbarMenu.css';
 
 const DocsbarMenu = () => (
   <div className="docsbar-container">
     <div className="docsbar-content">
       <a href="https://docs.google.com/document/u/0/" target="blank">
-        <img src={docs_home} alt="Docsbar Menu" className="docsbar-logo" />
+        <img src={home} alt="Docsbar Menu" className="docsbar-logo" />
       </a>
       <div className="docsbar-header">
         <div className="docsbar-title">
@@ -21,9 +20,9 @@ const DocsbarMenu = () => (
             Document Name
           </h1>
           <div className="docsbar-title-icons">
-            <img src={star} alt="Docsbar Menu" className="icon" />
-            <img src={move} alt="Docsbar Menu" className="icon" />
-            <img src={document_status} alt="Docsbar Menu" className="icon" />
+            <img src={star} alt="Docs logo" className="icon" />
+            <img src={move} alt="Docs move" className="icon" />
+            <img src={status} alt="Docs Status" className="icon" />
           </div>
         </div>
         <ul className="docsbar-menu">
@@ -48,12 +47,12 @@ const DocsbarMenu = () => (
       <a href="https://meet.google.com/" target="blank">
         <BiVideo />
       </a>
-      <button>
+      <button type="button">
         <i className="lock-icon"><BiLock /></i>
         Share
       </button>
       <a href="https://ahzamir-portfolio.vercel.app/" target="blank">
-        <img src={profile} alt="Docsbar Menu" className="profile" />
+        <img src={profile} alt="Profile" className="profile" />
       </a>
     </div>
   </div>

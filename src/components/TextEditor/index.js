@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import CustomizedQuill from '../CustomizedQuill';
 import './TextEditor.css';
 
@@ -12,6 +13,10 @@ const TextEditor = ({ sidebarCollapsed }) => {
       />
     </div>
   );
+};
+
+TextEditor.propTypes = {
+  sidebarCollapsed: PropTypes.bool.isRequired,
 };
 
 export default TextEditor;

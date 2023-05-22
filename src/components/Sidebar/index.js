@@ -1,9 +1,10 @@
+import PropTypes from 'prop-types';
 import calendar from './icons/calendar.png';
 import keep from './icons/keep.png';
 import tasks from './icons/tasks.png';
 import contacts from './icons/contacts.png';
 import maps from './icons/maps.png';
-import get_add_ons from './icons/get-add-ons.png';
+import add from './icons/get-add-ons.png';
 import './Sidebar.css';
 
 const Sidebar = ({ sidebarCollapsed }) => (
@@ -15,9 +16,13 @@ const Sidebar = ({ sidebarCollapsed }) => (
       <li><a href="https://contacts.google.com/" target="blank"><img src={contacts} alt="Contacts" /></a></li>
       <li><a href="https://www.google.com/maps/" target="blank"><img src={maps} alt="Maps" /></a></li>
       <li className="sidebar-separator" />
-      <li><a href="https://www.google.com/" target="blank"><img src={get_add_ons} alt="Get Add-ons" /></a></li>
+      <li><a href="https://www.google.com/" target="blank"><img src={add} alt="Get Add-ons" /></a></li>
     </ul>
   </div>
 );
+
+Sidebar.propTypes = {
+  sidebarCollapsed: PropTypes.bool.isRequired,
+};
 
 export default Sidebar;
