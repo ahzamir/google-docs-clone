@@ -18,16 +18,16 @@
 - [x] Deployment: [Netlify](https://www.netlify.com/) - A platform for deploying web applications
 
 ## Demo 💻
-Check out the live demo of the app hosted on Netlify:
+### Check out the live demo of the app hosted on Netlify:
 - [Google Docsc Clone Demo](https://ahzamir-google-docs-clone.netlify.app/)
 
-Project Screenshots:
+### Project Screenshots:
 
-- ![google-docs-clone](![Screenshot 2023-05-22 205227](https://github.com/ahzamir/google-docs-clone/assets/96838030/f5c3f5c1-a763-4350-89ba-e5b9b7c821f1)
+- ![google-docs-clone](https://github.com/ahzamir/google-docs-clone/assets/96838030/f5c3f5c1-a763-4350-89ba-e5b9b7c821f1)
 
-You can also watch a video demo of the app here:
+### You can also watch a video demo of the app here:
 
-- [Google Docs Clone Video Demo]()
+- [Google Docs Clone Video Demo](https://www.loom.com/share/03367980018947e18131e0aa801f0752)
 
 ## Getting Started
 
