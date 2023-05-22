@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 251, 253);
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  height: auto;
+}
+
+@page {
+  margin: 1rem;
+}
