@@ -61,7 +61,10 @@ span.ql-formats:last-child {
 .ql-comment,
 .ql-line-and-paragraph-spacing,
 .ql-checklist,
-.ql-editing {
+.ql-editing,
+.docsbar-title-icons,
+.docsbar-footer button,
+.docsbar-menu li {
   opacity: 0.4;
 }
 
