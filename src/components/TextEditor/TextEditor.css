@@ -52,6 +52,19 @@ span.ql-formats:last-child {
   margin: 0 1rem;
 }
 
+.ql-undo,
+.ql-redo,
+.ql-print,
+.ql-spell-check,
+.ql-paint-format,
+.ql-zoom,
+.ql-comment,
+.ql-line-and-paragraph-spacing,
+.ql-checklist,
+.ql-editing {
+  opacity: 0.4;
+}
+
 .ql-editing,
 .ql-zoom {
   font-size: 14px;
