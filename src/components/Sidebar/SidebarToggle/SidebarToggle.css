@@ -1,0 +1,35 @@
+.sidebar-footer-button {
+  display: flex;
+  align-items: center;
+  z-index: 200;
+  padding: 0.5rem 0.1rem;
+  border-radius: 50% 0 0 50%;
+  box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  color: black;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  border: none;
+  background-color: white;
+}
+
+.sidebar-footer-button svg {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-footer-button:hover {
+  transition: width 0.3s ease-in-out;
+  padding: 0.5rem 0.5rem;
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+
+@media print {
+  .sidebar-footer-button {
+    display: none;
+  }
+}

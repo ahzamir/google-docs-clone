@@ -1,0 +1,104 @@
+.docsbar-container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  padding: 1rem;
+  top: 0;
+  z-index: 1;
+  justify-content: space-between;
+  background-color: rgb(250, 251, 253);
+}
+
+.docsbar-content,
+.docsbar-title,
+.docsbar-title-icons,
+.docsbar-footer {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0 0.3rem;
+}
+
+.docsbar-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.docsbar-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.docsbar-title h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444746;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.docsbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-top: 0.3rem;
+  padding: 0;
+}
+
+.docsbar-menu li {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.docsbar-footer img {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #444746;
+  margin: 0 0.7rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  background-color: #c3e7ff;
+  border-radius: 50px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444746;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  align-items: center;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+.docsbar-footer button:hover {
+  background-color: #b3e0ff;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+@media print {
+  .docsbar-container {
+    display: none;
+  }
+}
