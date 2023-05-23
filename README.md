@@ -23,7 +23,7 @@
 
 ### Project Screenshots:
 
-- ![google-docs-clone](https://github.com/ahzamir/google-docs-clone/assets/96838030/f5c3f5c1-a763-4350-89ba-e5b9b7c821f1)
+![google-docs-clone](https://github.com/ahzamir/google-docs-clone/assets/96838030/f5c3f5c1-a763-4350-89ba-e5b9b7c821f1)
 
 ### You can also watch a video demo of the app here:
 
